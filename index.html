@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aprenda programação com recursos visuais, desafios e conteúdos acessíveis em Libras.">
+  <title>ConectaCode — Programar também é visual</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="ConectaCode, início"><span class="brand-mark">✳</span> conecta<span>code</span></a>
+    <nav id="mainNav" aria-label="Navegação principal">
+      <a href="#trilhas">Trilhas</a><a href="#metodo">Como funciona</a><a href="#desafio">Desafio</a>
+    </nav>
+    <div class="header-actions">
+      <button class="contrast-btn" id="contrastBtn" type="button" aria-pressed="false">◐ Alto contraste</button>
+      <button class="menu-toggle" id="menuToggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="mainNav">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="live-dot"></span> APRENDER DO SEU JEITO</div>
+        <h1>Seu próximo superpoder?<br><span>Falar a língua do código.</span></h1>
+        <p>Um espaço feito para aprender programação com recursos visuais, experiências práticas e conteúdos pensados para a comunidade surda.</p>
+        <div class="hero-actions">
+          <a class="primary-btn" href="#trilhas">Começar a explorar <span>↗</span></a>
+          <a class="text-link" href="#metodo">Conhecer o método</a>
+        </div>
+        <div class="hero-note"><span class="mini-avatars">✦ ◉ ✋</span> Sem depender do áudio. Com você no controle.</div>
+      </div>
+      <div class="hero-art" aria-label="Ilustração abstrata de programação">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="code-window">
+          <div class="window-head"><i></i><i></i><i></i><span>meu_primeiro_site.js</span></div>
+          <div class="code-lines">
+            <div><b>01</b> <span class="pink">const</span> sonho = <span class="yellow">"ideias"</span>;</div>
+            <div><b>02</b> <span class="pink">function</span> <span class="cyan">criar</span>() {</div>
+            <div><b>03</b> &nbsp; <span class="pink">return</span> <span class="green">sonho</span> + <span class="yellow">" em código"</span>;</div>
+            <div><b>04</b> }</div>
+            <div><b>05</b> <span class="cyan">criar</span>(); <span class="comment">// ✨</span></div>
+          </div>
+          <div class="code-result"><span>✦</span> Ideias virando realidade!</div>
+        </div>
+        <div class="floating-card card-hand"><span>👋</span><strong>Visual primeiro</strong><small>Aprenda vendo e fazendo</small></div>
+        <div class="floating-card card-star"><span>✦</span><strong>Missão desbloqueada</strong><small>Seu primeiro código</small></div>
+        <div class="spark spark-a">✳</div><div class="spark spark-b">✦</div>
+      </div>
+    </section>
+
+    <section class="stats-strip" aria-label="Diferenciais">
+      <div><strong>👁️</strong><span>Aprendizado visual</span></div>
+      <div><strong>🤟</strong><span>Espaço para Libras</span></div>
+      <div><strong>🧩</strong><span>Prática por desafios</span></div>
+      <div><strong>🎮</strong><span>Progresso em missões</span></div>
+    </section>
+
+    <section class="section" id="metodo">
+      <div class="section-heading">
+        <div><div class="eyebrow">NOSSO JEITO DE ENSINAR</div><h2>Não é só assistir.<br><span>É experimentar.</span></h2></div>
+        <p>O conteúdo combina imagem, movimento, exemplos e prática. Você escolhe o ritmo e explora cada conceito de um jeito mais concreto.</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature feature-purple"><div class="feature-icon">🤟</div><div class="feature-tag">01 / COMUNICAÇÃO</div><h3>Libras em destaque</h3><p>Espaços para vídeos curtos em Libras, com explicações dos conceitos e dos sinais técnicos.</p><span class="feature-decoration">〰</span></article>
+        <article class="feature feature-orange"><div class="feature-icon">🧠</div><div class="feature-tag">02 / VISUALIZAÇÃO</div><h3>Código que ganha forma</h3><p>Veja o que acontece em cada etapa: variáveis como caixas, condições como caminhos e laços como repetições.</p><span class="feature-decoration">◇</span></article>
+        <article class="feature feature-blue"><div class="feature-icon">🕹️</div><div class="feature-tag">03 / MÃO NA MASSA</div><h3>Missões interativas</h3><p>Aprenda resolvendo situações, recebendo pistas visuais e vendo o resultado na hora.</p><span class="feature-decoration">✳</span></article>
+      </div>
+    </section>
+
+    <section class="section trails-section" id="trilhas">
+      <div class="section-heading">
+        <div><div class="eyebrow">ESCOLHA SUA AVENTURA</div><h2>Comece por onde <span>quiser.</span></h2></div>
+        <span class="level-pill">✦ NÍVEL INICIANTE</span>
+      </div>
+      <div class="trail-grid">
+        <article class="trail-card"><div class="trail-top"><span class="trail-icon purple-icon">⌘</span><span class="duration">15 min</span></div><div class="trail-label">TRILHA 01</div><h3>Desvendando a lógica</h3><p>Entenda como dar instruções para o computador usando sequências visuais.</p><div class="progress"><span style="width:0%"></span></div><a href="#desafio">Explorar trilha <b>↗</b></a></article>
+        <article class="trail-card"><div class="trail-top"><span class="trail-icon orange-icon">{ }</span><span class="duration">20 min</span></div><div class="trail-label">TRILHA 02</div><h3>Meu primeiro JavaScript</h3><p>Conheça variáveis e faça seu primeiro programa responder a uma ideia.</p><div class="progress"><span style="width:0%"></span></div><a href="#desafio">Explorar trilha <b>↗</b></a></article>
+        <article class="trail-card"><div class="trail-top"><span class="trail-icon blue-icon">▤</span><span class="duration">25 min</span></div><div class="trail-label">TRILHA 03</div><h3>Crie uma página web</h3><p>Monte uma página com títulos, cores e elementos que tenham a sua cara.</p><div class="progress"><span style="width:0%"></span></div><a href="#desafio">Explorar trilha <b>↗</b></a></article>
+      </div>
+    </section>
+
+    <section class="challenge-section" id="desafio">
+      <div class="challenge-copy">
+        <div class="eyebrow">LABORATÓRIO CONECTACODE</div>
+        <h2>Seu primeiro<br><span>desafio visual.</span></h2>
+        <p>Uma variável é como uma caixinha que guarda uma informação. Altere o texto e veja a caixa atualizar!</p>
+        <div class="step-list">
+          <div class="step"><span>1</span><p><b>Observe</b><small>A caixa guarda uma mensagem.</small></p></div>
+          <div class="step"><span>2</span><p><b>Experimente</b><small>Digite uma mensagem diferente.</small></p></div>
+          <div class="step"><span>3</span><p><b>Veja acontecer</b><small>Atualize o resultado com um clique.</small></p></div>
+        </div>
+      </div>
+      <div class="playground">
+        <div class="playground-head"><span><i></i> ÁREA DE EXPERIMENTOS</span><span class="tiny-badge">AO VIVO</span></div>
+        <label for="messageInput">O que sua variável vai guardar?</label>
+        <div class="variable-box"><span class="variable-name">mensagem</span><span class="equals">=</span><input id="messageInput" value="Olá, mundo!" maxlength="50" aria-label="Texto guardado na variável"></div>
+        <button class="run-btn" id="runBtn" type="button">▶ Executar ideia</button>
+        <div class="result-label">RESULTADO DO SEU CÓDIGO</div>
+        <div class="result-box" id="resultBox" aria-live="polite"><span>💬</span> Olá, mundo!</div>
+        <p class="success-message" id="successMessage">✨ Pronto! Você acabou de atualizar uma variável.</p>
+      </div>
+    </section>
+
+    <section class="community">
+      <div class="community-icon">✋</div>
+      <div><div class="eyebrow">TECNOLOGIA COM ACESSIBILIDADE</div><h2>Seu jeito de aprender<br>também transforma o futuro.</h2><p>Este protótipo é um ponto de partida. A participação de pessoas surdas é essencial para criar uma experiência realmente acessível, incluindo vídeos em Libras revisados por profissionais e pela comunidade.</p></div>
+      <a href="#trilhas" class="community-link">Explorar agora ↗</a>
+    </section>
+  </main>
+
+  <footer><a class="brand" href="#"><span class="brand-mark">✳</span> conecta<span>code</span></a><span>Feito para aprender, criar e conectar. <b>© 2026</b></span><a href="#top">Voltar ao topo ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
